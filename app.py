@@ -12,7 +12,7 @@ from sklearn.metrics import precision_score, recall_score
 def main():
     st.title('Binary Classification Web App')
     st.sidebar.title('Binary Cassification Web App')
-    st.sidebar.markdown('Is masroom is good or poisonous')
+    st.sidebar.markdown('Machine Learning web app using streamlit to Predict whether the masroom is good or poisonous')
 
     @st.cache(persist=True)
     def load_data():
